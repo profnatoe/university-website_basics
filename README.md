@@ -1,6 +1,6 @@
 # university-website_basics
 
-Disclaimer: This was a school project before i made changes to it.
+This was a school project before i made changes to it.
 
 The web application is a site that has ITS System like the one you would find on any university website. The aim was to allow a student to register, add modules/courses and make changes to their profile where needed. An administrator also would have a page to view students who qualifies to get into certain programmes and do the usual admin staff.
 
