@@ -42,7 +42,7 @@ public partial class ForgotPassword : System.Web.UI.Page
                 string username = "" + dt.Rows[0][1] + " " + dt.Rows[0][2] + "";
                 string ToEmailAddress = dt.Rows[0][4].ToString();
                 string body = "Hi, " + username + "<br/<br/>Click the link below to reset your password <br/><br/>http://localhost:3967/RecoverPassword.aspx?StudentNumber=" + myGUID;
-                MailMessage msg = new MailMessage("zitoextechnologies@gmail.com", ToEmailAddress);
+                MailMessage msg = new MailMessage("user@gmail.com", ToEmailAddress);
 
                 msg.Body = body;
                 msg.IsBodyHtml = true;
@@ -51,8 +51,8 @@ public partial class ForgotPassword : System.Web.UI.Page
                 SmtpClient SMTP = new SmtpClient("smtp.gmail.com", 587);
 
                 SMTP.UseDefaultCredentials = false;
-
-                SMTP.Credentials = new NetworkCredential("zitoextechnologies@gmail.com", "@///Sitoe980311");
+                //Use your credentials here
+                SMTP.Credentials = new NetworkCredential("user@gmail.com", "@/");
         
                 SMTP.DeliveryMethod = SmtpDeliveryMethod.Network;
 
