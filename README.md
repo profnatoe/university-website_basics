@@ -1,2 +1,2 @@
 # university-website_basics
-ASP.Net web application that allows student to register and log in. A student and an Administrator have different Login Views that perform various stuff. I however didn't finish Adding Modules to the code for the student. Bootstrap has been used to write the front-end system. I'll update this soon.
+ASP.Net web application that allows student to register and log in. A student and an Administrator have different Login Views that perform certain tasks. I however didn't finish Adding Modules to the code for the student because of time.... Bootstrap has been used to write the front-end system with a litle of javascript for rotation of cards. I'll update this as soon as i finish my exams.
