@@ -1,0 +1,64 @@
+﻿body {
+    padding-top: 70px;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.title2{
+    width:100%;
+    text-align: center;
+}
+
+.center-page{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    top: -40px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.label-center{
+    width: 600px;
+    height:550px;
+    position:absolute;
+    margin:auto;
+    top: -20px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer-pos{
+
+    top:750px;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+
+}
+
+.sep{
+    top: 650px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right:0;
+    margin:auto;
+}
+
+.space-vert{
+    margin-top: 20px;
+    top: 0px;
+    left: 0px;
+}
+
+.space{
+    margin-top: 10px;
+}
